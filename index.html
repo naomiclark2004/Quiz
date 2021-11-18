@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Mono:wght@300&display=swap" rel="stylesheet">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/Javascript" src="script.js"></script>
+</head>
+
+<body>
+    <p id="timer"></p>
+    <form name="quiz" class="quiz">
+        <h1>
+            Quiz App
+        </h1>
+        <div class="questions is-dark">
+            <label name="question1" value="C">1. What does HTML stand for?</label>
+            <p>
+                <input type="radio" name="question1" value="A">Home Tool Markup Language<br>
+            </p>
+
+            <p>
+                <input type="radio" name="question1" value="B">Hyperlink and Text Markup Language<br>
+            </p>
+
+            <p>
+                <input type="radio" name="question1" value="C">Hyperlink Text Markup Language<br>
+            </p>
+        </div>
+        <br>
+        <br>
+        <div class="questions is-light">
+            <label name="question2" value="D">2. How many types of heading does an HTML contain?</label>
+            <p>
+                <input type="radio" name="question2" value="A">5<br>
+            </p>
+
+            <p>
+                <input type="radio" name="question2" value="B">8<br>
+            </p>
+
+            <p>
+                <input type="radio" name="question2" value="C">3<br>
+            </p>
+
+            <p>
+                <input type="radio" name="question2" value="D">6<br>
+            </p>
+        </div>
+        <br>
+        <br>
+        <div class="questions is-dark">
+            <label name="question3" value="A">3. Which HTML tag is used to start a unordered list?</label>
+            <p>
+                <input type="radio" name="question3" value="A">ul<br>
+            </p>
+
+            <p>
+                <input type="radio" name="question3" value="B">dl<br>
+            </p>
+
+            <p>
+                <input type="radio" name="question3" value="C">uol<br>
+            </p>
+
+            <p>
+                <input type="radio" name="question3" value="D">ol<br>
+            </p>
+        </div>
+        <br>
+        <br>
+        <div class="questions is-light">
+            <label name="question4" value="B">4. What is the difference between HTML elements and tags?</label>
+            <p>
+                <input type="radio" name="question4" value="A">HTML tags communicate to the browser to render text. When
+                the tags are enclosed by brackets <>, they form HTML elements. Most of the time, elements come in a pair
+                    and surround content.<br>
+            </p>
+
+            <p>
+                <input type="radio" name="question4" value="B">HTML elements communicate to the browser to render text.
+                When the elements are enclosed by brackets <>, they form HTML tags. Most of the time, tags come in a
+                    pair and surround content.<br>
+            </p>
+        </div>
+        <br>
+        <br>
+        <div class="questions is-dark">
+            <label name="question5">5.Which of these are new input types in HTML5?</label>
+            <p>
+                <input type="checkbox" name="q5a" value="A">Time<br>
+            </p>
+            <p>
+                <input type="checkbox" name="q5b" value="B">Article<br>
+            </p>
+            <p>
+                <input type="checkbox" name="q5c" value="C">Slider<br>
+            </p>
+            <p>
+                <input type="checkbox" name="q5d" value="D">Url<br>
+            </p>
+            <p>
+                <input type="checkbox" name="q5e" value="E">Tel<br>
+            </p>
+        </div>
+        <br>
+        <br>
+        <div class="questions is-light">
+            <label name="question6">6. Which of these are real input types?</label>
+            <p>
+                <input type="checkbox" name="q6a" value="A">Phone<br>
+            </p>
+            <p>
+                <input type="checkbox" name="q6b" value="B">Datetime-regional<br>
+            </p>
+            <p>
+                <input type="checkbox" name="q6c" value="C">File<br>
+            </p>
+
+            <p>
+                <input type="checkbox" name="q6d" value="D">Folder<br>
+            </p>
+
+            <p>
+                <input type="checkbox" name="q6e" value="E">Button<br>
+            </p>
+
+            <p>
+                <input type="checkbox" name="q6f" value="F">Week<br>
+            </p>
+        </div>
+        <br>
+        <br>
+        <div class="questions is-dark">
+            <label name="question7" value="C">7. Which is the correct sequence of HTML tags for starting a webpage?</label>
+            <p>
+                <input type="radio" name="question7" value="A">Head, Title, HTML, Body<br>
+            </p>
+
+            <p>
+                <input type="radio" name="question7" value="B">Head, Body, Title, HTML<br>
+            </p>
+
+            <p>
+                <input type="radio" name="question7" value="C">HTML, Head, Title, Body<br>
+            </p>
+
+            <p>
+                <input type="radio" name="question7" value="D">HTML, Title, Head, Body<br>
+            </p>
+        </div>
+        <br>
+        <br>
+        <div class="questions is-light">
+            <label name="question8" value="D">8. What is the correct HTML for creating a hyperlink?</label>
+            <p>
+                <input type="radio" name="question8" value="A">< a name > = "http://www.mywebsite.com" < / a> <br>
+            </p>
+
+            <p>
+                <input type="radio" name="question8" value="B">< a html://www.mywebsite.com < / a> <br>
+            </p>
+
+            <p>
+                <input type="radio" name="question8" value="C">< a url = "http://www.mywebsite.com" < / a> <br>
+            </p>
+
+            <p>
+                <input type="radio" name="question8" value="D">< a href = "http://www.mywebsite.com" < / a><br>
+            </p>
+        </div>
+        <br>
+        <br>
+        <div class="questions is-dark">
+            <label name="question9">9. What are the three ways to style HTML?</label>
+            <p>
+                <input type="checkbox" name="q9a" value="A">Internal styling<br>
+            </p>
+            <p>
+                <input type="checkbox" name="q9b" value="B">External stlying<br>
+            </p>
+            <p>
+                <input type="checkbox" name="q9c" value="C">Interior styling<br>
+            </p>
+
+            <p>
+                <input type="checkbox" name="q9d" value="D">Inline styling<br>
+            </p>
+
+            <p>
+                <input type="checkbox" name="q9e" value="E">Exterior stlying<br>
+            </p>
+        </div>
+        <br>
+        <br>
+        <div class="questions is-light">
+            <label name="question10">10. Which of these elements are inline elements? </label>
+            <p>
+                <input type="checkbox" name="q10a" value="A">video<br>
+            </p>
+            <p>
+                <input type="checkbox" name="q10b" value="B">a<br>
+            </p>
+            <p>
+                <input type="checkbox" name="q10c" value="C">button</button><br>
+            </p>
+
+            <p>
+                <input type="checkbox" name="q10d" value="D">label</label><br>
+            </p>
+
+            <p>
+                <input type="checkbox" name="q10e" value="E">canvas<br>
+            </p>
+            <p>
+                <input type="checkbox" name="q10f" value="F">blockquote</blockquotes><br>
+            </p>
+        </div>
+        <br>
+        <br>
+        <div class="questions is-dark">
+            <label name="question11">11. Which of these elements are block elements?</label>
+            <p>
+                <input type="checkbox" name="q11a" value="A">form<br>
+            </p>
+            <p>
+                <input type="checkbox" name="q11b" value="B">section<br>
+            </p>
+            <p>
+                <input type="checkbox" name="q11c" value="C">img<br>
+            </p>
+
+            <p>
+                <input type="checkbox" name="q11d" value="D">li<br>
+            </p>
+
+            <p>
+                <input type="checkbox" name="q11e" value="E">br<br>
+            </p>
+            <p>
+                <input type="checkbox" name="q10f" value="F">script</blockquotes><br>
+            </p>
+        </div>
+        <br>
+        <br>
+        <div class="questions is-light">
+            <label name="question12" value="A">12. Which of these elements are all table elements?</label>
+            <p>
+                <input type="radio" name="question12" value="A">table, tr, and td<br>
+            </p>
+
+            <p>
+                <input type="radio" name="question12" value="B">table, head, and tfoot<br>
+            </p>
+
+            <p>
+                <input type="radio" name="question12" value="C">table, tr, and tt<br>
+            </p>
+
+            <p>
+                <input type="radio" name="question12" value="D">thead, body, and tr<br>
+            </p>
+        </div>
+        <br>
+        <br>
+        <div class="questions is-dark">
+            <label name="question13">13. What type of audio is played in HTML5</label>
+            <p>
+                <input type="checkbox" name="q13a" value="A">WAV<br>
+            </p>
+            <p>
+                <input type="checkbox" name="q13b" value="B">MPEG<br>
+            </p>
+            <p>
+                <input type="checkbox" name="q13c" value="C">Mp3<br>
+            </p>
+
+            <p>
+                <input type="checkbox" name="q13d" value="D">PCM<br>
+            </p>
+
+            <p>
+                <input type="checkbox" name="q13e" value="E">Ogg<br>
+            </p>
+        </div>
+        <br>
+        <br>
+        <div class="questions is-light">
+            <label name="question14" value="B">14. What is NOT a new HTML5 tag in Media Elements?</label>
+            <p>
+                <input type="radio" name="question14" value="A">audio<br>
+            </p>
+
+            <p>
+                <input type="radio" name="question14" value="B">object<br>
+            </p>
+
+            <p>
+                <input type="radio" name="question14" value="C">video<br>
+            </p>
+
+            <p>
+                <input type="radio" name="question14" value="D">source<br>
+            </p>
+
+            <p>
+                <input type="radio" name="question14" value="E">embed<br>
+            </p>
+
+            <p>
+                <input type="radio" name="question14" value="F">track<br>
+            </p>
+        </div>
+        <br>
+        <br>
+        <div class="questions is-dark">
+            <label name="question15" value="C">15. What is NOT an advantages of HTML5?</label>
+            <p>
+                <input type="radio" name="question15" value="A">HTML5 also allows users to draw various shapes like rectangles, circles, triangles, etc.<br>
+            </p>
+
+            <p>
+                <input type="radio" name="question15" value="B">It has Multimedia Support.<br>
+            </p>
+
+            <p>
+                <input type="radio" name="question15" value="C">It allows access to both old and modern browsers.<br>
+            </p>
+
+            <p>
+                <input type="radio" name="question15" value="D">Included new Semantic tags and form control tags.<br>
+            </p>
+        </div>
+        <br>
+        <div class="questions is-result">
+            <p id="result"></p>
+            <input id='submitButton' type="button" value="Submit" onclick="final()">
+        </div>
+    </form>
+</body>
+
+</html>
